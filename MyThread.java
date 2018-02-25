@@ -1,21 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author master lab
- */
 package Week_01;
 
 public class MyThread extends Thread {
     
      @Override
      public void run() {
-        System.out.println("running...");
-        System.out.println("running...new 1");
+        System.out.println("Name : G.Shanthini");
+        System.out.println("Matric Number : 239215");
     }
 
     public static void main(String args[]) {
@@ -33,5 +23,3 @@ public class MyThread extends Thread {
         System.out.println("After changing name of t1:" + t1.getName());
     }
 }
-    
-
